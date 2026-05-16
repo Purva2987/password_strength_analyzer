@@ -8,7 +8,6 @@ import hashlib
 class PasswordStrengthAnalyzer:
 
     def __init__(self):
-        # Simulated old password database (hashed)
         self.old_passwords = set()
 
     def hash_password(self, password):
@@ -97,7 +96,6 @@ class PasswordStrengthAnalyzer:
                 re.search(r"[!@#$%^&*]", password)
             ):
                 return password
-
 if __name__ == "__main__":
 
     analyzer = PasswordStrengthAnalyzer()
