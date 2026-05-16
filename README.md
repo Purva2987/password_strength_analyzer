@@ -118,5 +118,5 @@ if __name__ == "__main__":
             print("-", item)
 
     if result["strength"] != "Strong":
-        print("\nSuggested Strong Password:")
+        print("\nSuggested Strong Password:
         print(analyzer.suggest_password())
